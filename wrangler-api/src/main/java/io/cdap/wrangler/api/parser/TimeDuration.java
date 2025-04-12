@@ -16,7 +16,7 @@ public class TimeDuration implements Token {
 
     @Override
     public TokenType type() {
-        return TokenType.NUMERIC;
+        return TokenType.TIME_DURATION;
     }
 
     @Override

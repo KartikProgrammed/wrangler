@@ -16,7 +16,7 @@ public class ByteSize implements Token {
 
     @Override
     public TokenType type() {
-        return TokenType.NUMERIC; // Assuming TokenType is the enum used in Token interface
+        return TokenType.BYTE_SIZE; // Assuming TokenType is the enum used in Token interface
     }
 
     @Override
